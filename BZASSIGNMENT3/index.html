@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="view-container">
+        <div class="screen-selectors">
+          <label tabindex="1" for="screen-1-checkbox"> <h3>Screen1</h3></label>
+          <label tabindex="2" for="screen-2-checkbox"> <h3>Screen2</h3></label>
+          <label tabindex="3" for="screen-3-checkbox"> <h3>Screen3</h3></label>
+        </div>
+        <input
+          class="screen-radio-button"
+          type="radio"
+          name="current-screen"
+          id="screen-1-checkbox"
+        />
+        <input
+          class="screen-radio-button"
+          type="radio"
+          name="current-screen"
+          id="screen-2-checkbox"
+        />
+        <input
+          class="screen-radio-button"
+          type="radio"
+          name="current-screen"
+          id="screen-3-checkbox"
+        />
+        <div class="screen screen-1">
+          <div class="content">
+            <h1>Today might be your lucky day!</h1>
+            <p>
+              <span>We're giving away free dinner</span>
+              <span>to lucky contestants.</span>
+            </p>
+            <h2>How it works</h2>
+            <div class="how-it-works">
+              <ul>
+                <li>Complete this signup process.</li>
+                <li>Complete a few partner offers.</li>
+                <li>Claim your dinner!</li>
+              </ul>
+            </div>
+            <label for="screen-2-checkbox">
+              <div class="button">Continue</div>
+            </label>
+          </div>
+        </div>
+        <div class="screen screen-2">
+          <div class="content">
+            <h1>
+              Which of the following is your
+              <span style="display: inline-block">favorite restaurant?</span>
+            </h1>
+            <h2>We'll taylor your prizes to your choice.</h2>
+            <ul>
+              <li>
+                <input type="radio" name="favorite-restaurant" id="DinTaiFung" /><label
+                  for="DinTaiFung"
+                  >DinTaiFung</label
+                >
+              </li>
+              <li>
+                <input type="radio" name="favorite-restaurant" id="Nobu" /><label
+                  for="Nobu"
+                  >Nobu</label
+                >
+              </li>
+              <li>
+                <input type="radio" name="favorite-restaurant" id="Dudley" /><label
+                  for="Dudley"
+                  >Dudley</label
+                >
+              </li>
+              <li>
+                <input type="radio" name="favorite-restaurant" id="Elephante" /><label
+                  for="Elephante"
+                  >Elephante</label
+                >
+              </li>
+              <li>
+                <input type="radio" name="favorite-store" id="ebay" /><label
+                  for="ebay"
+                  >Ebay</label
+                >
+              </li>
+            </ul>
+            <label for="screen-3-checkbox">
+              <div class="button">Continue</div>
+            </label>
+          </div>
+        </div>
+        <div class="screen screen-3">
+          <div class="content">
+            <h1>Do you prefer ordering food online or in person?</h1>
+            <input type="radio" name="shopping-preference" />
+            <input type="radio" name="shopping-preference" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

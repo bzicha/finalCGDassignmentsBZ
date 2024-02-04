@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+body {
+  background-color: black;
+  color: rgb(250, 231, 234);
+}
+body div.neon {
+  font-family: "tilt neon", sans-serif;
+  animation: flicker 5s infinite linear;
+}
+body h1 {
+  font-weight: normal;
+  font: size 6em;
+  text-align: center;
+  text-shadow: 0 0 20px rgb(250, 144, 200);
+}
+
+.marquee {
+  color: aqua;
+}
+.marquee h1 {
+  text-align: center;
+  position: relative;
+  animation: marquee 5s infinite linear;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  1% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  16% {
+    opacity: 0;
+  }
+  17% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  22% {
+    opacity: 0.5;
+  }
+  23% {
+    opacity: 1;
+  }
+  76% {
+    opacity: 1;
+  }
+  77% {
+    opacity: 0.5;
+  }
+  78% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0.5;
+  }
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes marquee {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 500px;
+  }
+}/*# sourceMappingURL=styles.css.map */
